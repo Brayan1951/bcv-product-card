@@ -15,7 +15,6 @@ import {  ProductButtons, ProductCard, ProductImage, ProductTitle }from 'bcv-pro
           product={product}
           initialValues={{ count: 4, maxCount: 10 }}
 
-        // onChange={(event) => onProductCountChange(event)}
         >{
             ({ reset, increaseBy, count, isMaxCountReached }) => (
               <>
